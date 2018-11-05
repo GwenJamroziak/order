@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "order\api.csproj", "{27FAE12C-D9FF-4CEF-9204-D7B0C4BC26CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Api", "order\Order.Api.csproj", "{27FAE12C-D9FF-4CEF-9204-D7B0C4BC26CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "domain\domain.csproj", "{CE578BE5-E72D-4337-93B8-791A25E9FBB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Domain", "domain\Order.Domain.csproj", "{CE578BE5-E72D-4337-93B8-791A25E9FBB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services", "services\services.csproj", "{DCBC11E6-DC64-4AD3-A68D-C414350521B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Services", "services\Order.Services.csproj", "{DCBC11E6-DC64-4AD3-A68D-C414350521B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "database", "databases\database.csproj", "{7535B8BE-74E7-49F3-AC46-584C04875E47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Database", "databases\Order.Database.csproj", "{7535B8BE-74E7-49F3-AC46-584C04875E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiTests", "apiTests\apiTests.csproj", "{10F8EDD6-587A-44C7-AEB1-220C77B09CA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Api.Tests", "apiTests\Order.Api.Tests.csproj", "{10F8EDD6-587A-44C7-AEB1-220C77B09CA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domainTests", "domainTests\domainTests.csproj", "{DF2F1921-DF8B-4F27-A7A2-739F14306588}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Domain.Tests", "domainTests\Order.Domain.Tests.csproj", "{DF2F1921-DF8B-4F27-A7A2-739F14306588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "databaseTests", "databaseTests\databaseTests.csproj", "{DF07336C-CAB9-4EC3-9A2D-E149B7849A69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Database.Tests", "databaseTests\Order.Database.Tests.csproj", "{DF07336C-CAB9-4EC3-9A2D-E149B7849A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicesTests", "servicesTests\servicesTests.csproj", "{15E363BF-D95E-45BE-81C2-CBA1323B8BAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Services.Tests", "servicesTests\Order.Services.Tests.csproj", "{15E363BF-D95E-45BE-81C2-CBA1323B8BAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using domain;
 using Microsoft.AspNetCore.Mvc;
+using services;
 
 namespace order.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class OrdersController : ControllerBase
     {
         // GET api/values
         [HttpGet]
@@ -26,8 +28,10 @@ namespace order.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Customer customer)
         {
+            CustomerService customerService = new CustomerService();
+            customerService.SaveCustomerInCustomerDb(customer);
         }
 
         // PUT api/values/5
