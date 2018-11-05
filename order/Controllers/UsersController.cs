@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using WebApi.Services;
-using WebApi.Entities;
+using Order.Services;
+using Order.Domain;
 using System.Threading.Tasks;
 
 namespace WebApi.Controllers

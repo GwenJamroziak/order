@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using order.Helpers;
-using order.Services;
+using Order.Helpers;
+using Order.Services;
 using Microsoft.AspNetCore.Authentication;
 
 namespace order
@@ -27,7 +27,7 @@ namespace order
             // configure basic authentication 
             services.AddAuthentication("BasicAuthentication")
                 .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
-
+            services.
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
         }

@@ -6,7 +6,7 @@ using Order.Domain;
 using Microsoft.AspNetCore.Mvc;
 using services;
 
-namespace order.Controllers
+namespace Order.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
