@@ -14,9 +14,10 @@ namespace order.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<List<Customer>> Get()
         {
-            return new string[] { "value1", "value2" };
+            CustomerService customerService = new CustomerService();
+            return customerService.GetAllCustomersFromCustomerDb();
         }
 
         // GET api/values/5
