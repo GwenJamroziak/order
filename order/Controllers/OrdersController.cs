@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using domain;
+using Order.Domain;
 using Microsoft.AspNetCore.Mvc;
 using services;
 

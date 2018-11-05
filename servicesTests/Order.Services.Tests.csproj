@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\databases\Order.Database.csproj" />
+    <ProjectReference Include="..\services\Order.Services.csproj" />
   </ItemGroup>
 
 </Project>

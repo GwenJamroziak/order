@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace domain
+namespace Order.Domain
 {
     public class Customer
     {

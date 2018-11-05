@@ -1,8 +1,8 @@
-﻿using domain;
+﻿using Order.Domain;
 using System;
 using System.Collections.Generic;
 
-namespace databases
+namespace Order.Database
 {
     public static class CustomerDb
     {
