@@ -10,7 +10,7 @@ namespace order.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OrdersController : ControllerBase
+    public class CustomersController : ControllerBase
     {
         // GET api/values
         [HttpGet]
