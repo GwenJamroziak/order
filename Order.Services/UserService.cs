@@ -5,12 +5,7 @@ using Order.Domain;
 
 namespace Order.Services
 {
-    public interface IUserService
-    {
-        Task<User> Authenticate(string username, string password);
-        Task<IEnumerable<User>> GetAll();
-    }
-
+    
     public class UserService : IUserService
     {
         // users hardcoded for simplicity, store in a db with hashed passwords in production applications

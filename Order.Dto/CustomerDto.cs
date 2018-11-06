@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Order.Domain
+namespace Order.Dto
 {
-    public class Customer
+    public class CustomerDto
     {
         public int Id { get; set; }
         public static int IdCounter { get; set; }
@@ -12,7 +12,7 @@ namespace Order.Domain
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
 
-        public Customer(string firstName, string lastName, string emailAddress, string address, string phoneNumber)
+        public CustomerDto(string firstName, string lastName, string emailAddress, string address, string phoneNumber)
         {
             Id = IdCounter++;
             FirstName = firstName;
