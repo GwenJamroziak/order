@@ -36,7 +36,7 @@ namespace Order.Api.Controllers
         {
             CustomerService customerService = new CustomerService();
             MapperService mapperService = new MapperService();
-            var customer = mapperService.customerDtoToCustomer(customerDto);
+            var customer = mapperService.CustomerDtoToCustomer(customerDto);
             customerService.SaveCustomerInCustomerDb(customer);
         }
 

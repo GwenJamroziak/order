@@ -34,13 +34,13 @@ namespace Order.Services
 
             foreach(CustomerDTO DTOcustomer in DTOcustomers)
             {
-                customers.Add(customerDtoToCustomer(DTOcustomer));
+                customers.Add(CustomerDtoToCustomer(DTOcustomer));
             }
 
             return customers;
         }
 
-        public Customer customerDtoToCustomer(CustomerDTO DTOcustomer)
+        public Customer CustomerDtoToCustomer(CustomerDTO DTOcustomer)
         {
             return new Customer(
                         DTOcustomer.Id,
