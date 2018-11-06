@@ -21,5 +21,15 @@ namespace Order.Domain
             Address = address;
             PhoneNumber = phoneNumber;
         }
+
+        public Customer(int id, string firstName, string lastName, string emailAddress, string address, string phoneNumber)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            EmailAddress = emailAddress;
+            Address = address;
+            PhoneNumber = phoneNumber;
+        }
     }
 }

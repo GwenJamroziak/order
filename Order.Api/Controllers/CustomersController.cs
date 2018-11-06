@@ -32,9 +32,11 @@ namespace Order.Api.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] Customer customer) //dto van maken
+        public void Post([FromBody] CustomerDTO customerDto)
         {
             CustomerService customerService = new CustomerService();
+            MapperService mapperService = new MapperService();
+            var customer = mapperService.customerDtoToCustomer(customerDto);
             customerService.SaveCustomerInCustomerDb(customer);
         }
 

@@ -21,5 +21,15 @@ namespace Order.Dto
             Address = address;
             PhoneNumber = phoneNumber;
         }
+
+        public CustomerDTO(int id, string firstName, string lastName, string emailAddress, string address, string phoneNumber)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            EmailAddress = emailAddress;
+            Address = address;
+            PhoneNumber = phoneNumber;
+        }
     }
 }
