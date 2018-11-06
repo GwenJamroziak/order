@@ -4,6 +4,7 @@ namespace Order.Domain
 {
     public class Customer
     {
+        // add id
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }

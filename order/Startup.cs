@@ -27,7 +27,6 @@ namespace OrderStartup
             // configure basic authentication 
             services.AddAuthentication("BasicAuthentication")
                 .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
-            services.
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
         }

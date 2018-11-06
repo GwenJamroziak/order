@@ -29,7 +29,7 @@ namespace Order.Api.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] Customer customer)
+        public void Post([FromBody] Customer customer) //dto van maken
         {
             CustomerService customerService = new CustomerService();
             customerService.SaveCustomerInCustomerDb(customer);
