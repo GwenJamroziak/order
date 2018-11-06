@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Order.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Order.Services;
+using Order.Dto;
 
 namespace Order.Api.Controllers
 {
@@ -14,10 +15,12 @@ namespace Order.Api.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<List<Customer>> Get()
+        public ActionResult<List<CustomerDTO>> Get()
         {
             CustomerService customerService = new CustomerService();
-            return customerService.GetAllCustomersFromCustomerDb();
+            MapperService mapperService = new MapperService();
+            var customerList = customerService.GetAllCustomersFromCustomerDb();
+            return mapperService.CustomerListToDTO(customerList);
         }
 
         // GET api/values/5
