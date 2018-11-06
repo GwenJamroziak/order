@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\databases\Order.Database.csproj" />
-    <ProjectReference Include="..\services\Order.Services.csproj" />
+    <ProjectReference Include="..\Order.Databases\Order.Databases.csproj" />
+    <ProjectReference Include="..\Order.Services\Order.Services.csproj" />
   </ItemGroup>
 
 </Project>

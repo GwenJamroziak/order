@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace OrderStartup
+namespace Order.Api
 {
     public class Program
     {

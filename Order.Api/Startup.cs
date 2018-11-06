@@ -7,7 +7,7 @@ using Order.Api.Helpers;
 using Order.Services;
 using Microsoft.AspNetCore.Authentication;
 
-namespace OrderStartup
+namespace Order.Api
 {
     public class Startup
     {
