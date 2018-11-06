@@ -10,7 +10,7 @@ using Microsoft.Extensions.Options;
 using Order.Domain;
 using Order.Services;
 
-namespace Order.Helpers
+namespace Order.Api.Helpers
 {
     public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
     {

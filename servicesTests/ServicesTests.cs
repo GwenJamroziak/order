@@ -3,7 +3,7 @@ using Order.Domain;
 using System;
 using Xunit;
 
-namespace servicesTests
+namespace Order.Services.Tests
 {
     public class ServicesTests
     {

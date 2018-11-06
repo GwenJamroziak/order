@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace databaseTests
+namespace Order.Database.Tests
 {
     public class UnitTest1
     {

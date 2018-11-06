@@ -4,7 +4,7 @@ using Order.Services;
 using Order.Domain;
 using System.Threading.Tasks;
 
-namespace WebApi.Controllers
+namespace Order.Api.Controllers
 {
     [Authorize]
     [ApiController]

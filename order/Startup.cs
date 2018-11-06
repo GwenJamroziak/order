@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Order.Helpers;
+using Order.Api.Helpers;
 using Order.Services;
 using Microsoft.AspNetCore.Authentication;
 
-namespace order
+namespace OrderStartup
 {
     public class Startup
     {

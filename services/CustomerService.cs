@@ -3,7 +3,7 @@ using Order.Domain;
 using System;
 using System.Collections.Generic;
 
-namespace services
+namespace Order.Services
 {
     public class CustomerService
     {
